@@ -11,8 +11,6 @@ import {
   Mail,
   ExternalLink,
   Calendar,
-  Zap,
-  Menu,
   ChevronDown,
 } from "lucide-react"
 import Image from "next/image"
@@ -194,7 +192,7 @@ export default function PersonalWebsite() {
             style={{ y: textY }}
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent">
                 Samuel
               </span>
@@ -214,7 +212,7 @@ export default function PersonalWebsite() {
                 className="border-2 border-purple-400 text-purple-300 hover:bg-purple-500/20 hover:text-white px-8 py-4 text-lg lg:text-xl rounded-lg flex items-center gap-3 transition-all duration-300 backdrop-blur-sm"
               >
                 <Linkedin className="w-6 h-6 lg:w-7 lg:h-7" />
-                Let's Connect!
+                Let&apos;s Connect!
               </Button>
             </div>
           </motion.div>
@@ -265,16 +263,16 @@ export default function PersonalWebsite() {
                     Welcome to my website!
                   </h3>
                   <p className="text-slate-300 leading-relaxed text-lg">
-                  I'm a Computer Science and Finance student at the University of Waterloo with a passion for building software at the intersection of technology and practical solutions. 
-                  Currently working as an AI Developer at the Government of Canada's National Research Council, I've developed a multimodal AI application that solves real-world problems.
+                  I&apos;m a Computer Science and Finance student at the University of Waterloo with a passion for building software at the intersection of technology and practical solutions. 
+                  Currently working as an AI Developer at the Government of Canada&apos;s National Research Council, I&apos;ve developed a multimodal AI application that solves real-world problems.
                   <br/>
                   <br/>
                   My experience spans from software engineering to machine learning, winning hackathons along the way. 
-                  I'm particularly drawn to projects that allow me to explore technology actually used in the real world, whether that's building financial trading systems, interactive data visualization platforms, or working with cloud computing.
+                  I&apos;m particularly drawn to projects that allow me to explore technology actually used in the real world, whether that&apos;s building financial trading systems, interactive data visualization platforms, or working with cloud computing.
                   <br/>
                   <br/>
-                  When I'm not coding, you'll find me stressing over Premier League football, learning a new fingerstyle guitar song, 
-                  or eyeing another expensive watch that I can't buy. Feel free to reach out to me if you'd like to chat (or if you have any music/book recommendations)!
+                  When I&apos;m not coding, you&apos;ll find me stressing over Premier League football, learning a new fingerstyle guitar song, 
+                  or eyeing another expensive watch that I can&apos;t buy. Feel free to reach out to me if you&apos;d like to chat (or if you have any music/book recommendations)!
                   </p>
                 </div>
               </div>
