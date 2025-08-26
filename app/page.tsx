@@ -65,7 +65,7 @@ const experiencesData = [
     date: "May 2025 - Present",
     description: "Developed a multimodal AI agent to automate the risk assessment process, cutting workload by 30 hours per assessment",
     skills: ["Python", "Pandas", "Azure", "LangChain", "Tkinter"],
-    image: "/images/nrc building.jpg"
+    image: "/images/NRC building.jpg"
   }
   // {
   //   title: "Senior Admin Cadet",
