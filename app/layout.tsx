@@ -13,8 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Samuel Zhang | CS + Finance @ UW",
-  description: "Personal portfolio",
+  openGraph: {
+    title: "Samuel Zhang | CS + Finance @ UW",
+    description: "",
+    url: "https://samuelzhang.me",
+    siteName: "Samuel Zhang Portfolio",
+    images: [
+      {
+        url: "/images/personalwebsite.png",
+        width: 1200,
+        height: 630,
+        alt: "Samuel Zhang - Computer Science and Finance Student",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  }
 };
 
 export default function RootLayout({

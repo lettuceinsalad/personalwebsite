@@ -104,7 +104,7 @@ export default function PersonalWebsite() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      // Enhanced smooth scroll with easing
+      // smooth scroll 
       element.scrollIntoView({ 
         behavior: "smooth",
         block: "start",
@@ -138,7 +138,7 @@ export default function PersonalWebsite() {
   return (
     <div className={`min-h-screen transition-colors duration-500 bg-background text-foreground`}>
         {/* Navigation Bar */}
-                <nav className={`fixed top-0 left-0 right-0 z-50 border-b transition-all duration-300 ${
+                <nav className={`fixed top-0 left-0 right-0 z-51 border-b transition-all duration-300 ${
                   isScrolled 
                     ? 'bg-background/90 border-border/50 backdrop-blur-md' 
                     : 'bg-transparent border-transparent'
@@ -217,7 +217,7 @@ export default function PersonalWebsite() {
             </div>
           </motion.div>
           
-          {/* Scroll Down Button - Fixed positioning and higher z-index */}
+          {/* Scroll Down Button */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-50 animate-bounce">
             <Button
               onClick={() => scrollToSection('about')}
