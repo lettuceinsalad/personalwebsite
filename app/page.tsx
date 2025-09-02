@@ -138,7 +138,7 @@ export default function PersonalWebsite() {
   return (
     <div className={`min-h-screen transition-colors duration-500 bg-background text-foreground`}>
         {/* Navigation Bar */}
-                <nav className={`fixed top-0 left-0 right-0 z-51 border-b transition-all duration-300 ${
+                <nav className={`fixed top-0 left-0 right-0 z-[100] border-b transition-all duration-300 ${
                   isScrolled 
                     ? 'bg-background/90 border-border/50 backdrop-blur-md' 
                     : 'bg-transparent border-transparent'
@@ -291,10 +291,10 @@ export default function PersonalWebsite() {
 
               <div className="mx-auto">
                 <Card className="bg-secondary backdrop-blur-sm border-border shadow-lg hover:shadow-xl transition-all duration-500">
-                  <CardContent className="p-8 lg:p-10">
-                    <div className="grid md:grid-cols-4 gap-8 items-center">
+                  <CardContent className="p-6">
+                    <div className="grid md:grid-cols-4 gap-6 items-center">
                       <div className="md:col-span-1 flex justify-center">
-                      <div className="w-64 h-48 rounded-xl flex-shrink-0 overflow-hidden">
+                      <div className="w-full max-w-64 h-48 rounded-xl flex-shrink-0 overflow-hidden">
                           <Image
                             src="/images/waterloo.png"
                             alt="UW Logo"
@@ -364,13 +364,13 @@ export default function PersonalWebsite() {
                     <CardContent className="p-6">
                       <div className="grid md:grid-cols-4 gap-6 items-center">
                         <div className="md:col-span-1 flex justify-center">
-                          <div className="w-64 h-48 rounded-xl flex-shrink-0 overflow-hidden">
+                          <div className="relative w-full max-w-64 h-48 rounded-xl flex-shrink-0 overflow-hidden">
                             <Image
                               src={exp.image}
                               alt={`${exp.company} Logo`}
-                              width={128}
-                              height={128}
-                              className="rounded-lg object-cover w-full h-full bg-white/5"
+                              width={256}
+                              height={192}
+                              className="object-cover bg-white/5 w-full h-full"
                             />
                           </div>
                         </div>
