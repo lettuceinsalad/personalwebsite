@@ -21,9 +21,9 @@ Visit the live website: [samuelzhang.me](https://samuelzhang.me)
 ## 📞 Contact
 
 - **Website**: [samuelzhang.me](https://samuelzhang.me)
-- **LinkedIn**: [Samuel Zhang](https://linkedin.com/in/samuel-zhang)
+- **LinkedIn**: [Samuel Zhang](https://www.linkedin.com/in/szhang223/)
 - **GitHub**: [@lettuceinsalad](https://github.com/lettuceinsalad)
-- **Email**: s2zhang@uwaterloo.ca
+- **Email**: sj3zhang@uwaterloo.ca
 
 ---
 
